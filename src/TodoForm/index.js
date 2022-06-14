@@ -19,7 +19,7 @@ function TodoForm(){
     const onSubmit = (e)=>{
         e.preventDefault();
         addTodo(newTodoValue);
-        setOpenModal(true);
+        setOpenModal(false);
     }
     
     return (
